@@ -1,0 +1,58 @@
+# site settings
+
+title: Colomina IT Solutions
+description: Welcome to my page! As a dedicated freelance Cloud Developer and Software Architect, I specialize in crafting innovative solutions. Here, you can easily reach out to discuss exciting new project opportunities. Let's collaborate and bring your ideas to the best place on earth...Production!
+taglong: Freelance Cloud Developer / Software Architect
+  Reach out to discuss new project opportunities.Let's collaborate and bring your ideas to the best place on earth...Production!
+url: https://pedritod.github.io
+baseurl: ""
+permalink: pretty
+repo: https://github.com/pedritod/pedritod.github.io
+
+# author settings
+
+author:
+  name: Pedro Colomina Medina
+  email: pedrocolomina@outlook.com
+photo: /assets/jpg/photo.jpg
+
+# social media links
+
+social:
+  github: pedritod
+  freelance: pedro-colomina-medina
+  linkedin: pedritod
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
