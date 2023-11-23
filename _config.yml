@@ -2,8 +2,9 @@
 
 title: Colomina IT Solutions
 description: Welcome to my page! As a dedicated freelance Cloud Developer and Software Architect, I specialize in crafting innovative solutions. Here, you can easily reach out to discuss exciting new project opportunities. Let's collaborate and bring your ideas to the best place on earth...Production!
-taglong: Freelance Cloud Developer / Software Architect
-  Reach out to discuss new project opportunities.Let's collaborate and bring your ideas to the best place on earth...Production!
+subtitle: Freelance Cloud Developer / Software Architect
+taglong:
+  Reach out to discuss new project opportunities. Let's collaborate and bring your ideas to the best place on earth...Production!
 url: https://pedritod.github.io
 baseurl: ""
 permalink: pretty
